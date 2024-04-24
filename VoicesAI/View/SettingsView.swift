@@ -30,8 +30,10 @@ struct SettingsView: View {
                 // MARK: - LINK
                 Section {
                     Link("GET API KEY GEMINI AI", destination: URL(string: signUpGemini)!)
+                        .foregroundStyle(.blue)
                     
                     Link("GET API KEY ELEVENLABS", destination: URL(string: signUpElevenLabs)!)
+                        .foregroundStyle(.blue)
                     
                 } header: {
                     Text("Dont have API Key?")
