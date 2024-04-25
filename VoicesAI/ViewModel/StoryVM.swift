@@ -56,7 +56,7 @@ class StoryVM: ObservableObject {
         DispatchQueue.main.async {
             self.displayedStoryText = ""
         }
-        
+       
         timer?.invalidate()
         timer = Timer.scheduledTimer(withTimeInterval: 0.05, repeats: true) { [weak self] timer in
             guard let self = self, charIndex < self.storyText.count else {
