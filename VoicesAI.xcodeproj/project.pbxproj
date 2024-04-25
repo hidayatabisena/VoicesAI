@@ -15,6 +15,7 @@
 		537F500B2BD8DCD400A206A2 /* StoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537F500A2BD8DCD400A206A2 /* StoriesView.swift */; };
 		537F500D2BD8DCE900A206A2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537F500C2BD8DCE900A206A2 /* SettingsView.swift */; };
 		537F50102BD8F52800A206A2 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537F500F2BD8F52800A206A2 /* Constant.swift */; };
+		53B335C22BD9FCA80061EEFD /* StoryVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B335C12BD9FCA80061EEFD /* StoryVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		537F500A2BD8DCD400A206A2 /* StoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesView.swift; sourceTree = "<group>"; };
 		537F500C2BD8DCE900A206A2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		537F500F2BD8F52800A206A2 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		53B335C12BD9FCA80061EEFD /* StoryVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		537F4FF52BD8DB9F00A206A2 /* VoicesAI */ = {
 			isa = PBXGroup;
 			children = (
+				53B335C02BD9FC850061EEFD /* ViewModel */,
 				537F500E2BD8F51B00A206A2 /* Services */,
 				537F50072BD8DC0A00A206A2 /* Model */,
 				537F50052BD8DBB300A206A2 /* App */,
@@ -117,6 +120,14 @@
 				537F500F2BD8F52800A206A2 /* Constant.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		53B335C02BD9FC850061EEFD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				53B335C12BD9FCA80061EEFD /* StoryVM.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				537F500D2BD8DCE900A206A2 /* SettingsView.swift in Sources */,
+				53B335C22BD9FCA80061EEFD /* StoryVM.swift in Sources */,
 				537F500B2BD8DCD400A206A2 /* StoriesView.swift in Sources */,
 				537F50092BD8DC2E00A206A2 /* Topics.swift in Sources */,
 				537F4FF92BD8DB9F00A206A2 /* ContentView.swift in Sources */,
