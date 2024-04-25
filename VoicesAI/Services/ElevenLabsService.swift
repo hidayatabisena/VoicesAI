@@ -20,6 +20,8 @@ class ElevenLabsService {
             return Data()
         }
         
+        print("accessing url: \(url)")
+        
         print("You are using API_KEY \(apiKey) for request to ElevenLabs!!")
         
         // Request Body
@@ -27,8 +29,8 @@ class ElevenLabsService {
             "model_id": "eleven_multilingual_v2",
             "text": text,
             "voice_settings": [
-                "stability": 123,
-                "similarity_boost": 123
+                "stability": 1,
+                "similarity_boost": 1
             ]
         ]
         
